@@ -1,13 +1,20 @@
 public class PizzaTamanho {
-    void tamanhoP() {
+    private String tamanhoPizza;
+    private float valorPizza;
 
+    public String getTamanhoPizza() {
+        return tamanhoPizza;
     }
 
-    void tamanhoM() {
-
+    public void setTamanhoPizza(String tamanho) {
+        this.tamanhoPizza = tamanho;
     }
 
-    void tamanhoG() {
+    public float getValorPizza() {
+        return valorPizza;
+    }
 
+    public void setValorPizza(float valor) {
+        this.valorPizza = valor;
     }
 }
