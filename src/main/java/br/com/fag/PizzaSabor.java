@@ -1,3 +1,5 @@
+package br.com.fag;
+
 public enum PizzaSabor {
   CALABRESA(10),
   ROMANESCA(10),

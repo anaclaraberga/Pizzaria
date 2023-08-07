@@ -1,3 +1,5 @@
+package br.com.fag;
+
 public class PizzaTamanho {
     private String tamanhoPizza;
     private float valorPizza;

@@ -1,3 +1,5 @@
+package br.com.fag;
+
 public class EscolhaSabor {
   PizzaSabor Calabresa = PizzaSabor.CALABRESA;
   PizzaSabor frangoComCatupiry = PizzaSabor.FRANGO_COM_CATUPIRY;

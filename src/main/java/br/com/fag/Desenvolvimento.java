@@ -1,3 +1,5 @@
+package br.com.fag;
+
 import java.util.Scanner;
 
 public class Desenvolvimento {
