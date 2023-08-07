@@ -9,10 +9,10 @@ public class Desenvolvimento {
         System.out.println("Seja bem-vindo à Piratas Pizzaria.");
         System.out.println("======================================================");
         System.out.println(
-                "Digite o número de acordo com o tamanho da pizza que deseja: \n1. Tamanho P (40,00 reais)\n2. Tamanho M (50,00 reais)\n3. Tamanho G (60,00 reais)");
+                "Digite o número de acordo com o tamanho da pizza que deseja: \n1. Tamanho P\n2. Tamanho M\n3. Tamanho G");
         int tamanhoPizza = scanner.nextInt();
 
-        switch (tamanhoPizza) {
+        switch (tamanhoPizza ) {
             case 1:
                 pizzatamanho.setTamanhoPizza("P");
                 System.out.println(pizzatamanho.getTamanhoPizza());
