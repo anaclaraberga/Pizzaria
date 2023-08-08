@@ -16,7 +16,7 @@ public class Desenvolvimento {
 
         switch (tamanhoPizza ) {
             case 1:
-                pizzatamanho.setTamanhoPizza("P");
+                pizzatamanho.setTamanhoPizza("Pequeno");
                 System.out.println(pizzatamanho.getTamanhoPizza());
                 break;
             case 2:
