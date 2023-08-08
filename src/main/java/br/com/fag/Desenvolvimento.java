@@ -59,7 +59,7 @@ public class Desenvolvimento {
                 System.out.println(pizza.getSabor());
                 break;
             case 3:
-                System.out.println("Sua pizza é tamanho G. Você tem direito a escolher três sabores.\n Escolha seu primeiro sabor: ");
+                System.out.println("Sua pizza é tamanho G. Você tem direito a escolher três sabores!\n Escolha seu primeiro sabor: ");
                 ImprimeLista.imprimir(PizzaSabor.printAll());
                 posicaoArray = scanner.nextInt();
                 pizza.setSabor(PizzaSabor.values()[posicaoArray]);
