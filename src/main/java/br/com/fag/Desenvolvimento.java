@@ -10,7 +10,7 @@ public class Desenvolvimento {
         int posicaoArray = 0;
 
         System.out.println("======================================================");
-        System.out.println("Seja bem-vindo à Piratas Pizzaria.");
+        System.out.println("Seja bem-vindo à Cascavel Pizzaria.");
         System.out.println("======================================================");
         System.out.println(
                 "Digite o número de acordo com o tamanho da pizza que deseja: \n1. Tamanho P\n2. Tamanho M\n3. Tamanho G");
@@ -51,7 +51,8 @@ public class Desenvolvimento {
                 posicaoArray = scanner.nextInt();
                 pizza.setSabor(PizzaSabor.values()[posicaoArray]);
                 System.out.println(pizza.getSabor());
-                
+
+                System.out.println("======================================================");
                 System.out.println("Escolha seu segundo sabor:");
                 ImprimeLista.imprimir(PizzaSabor.printAll());
                 posicaoArray = scanner.nextInt();
@@ -65,12 +66,14 @@ public class Desenvolvimento {
                 pizza.setSabor(PizzaSabor.values()[posicaoArray]);
                 System.out.println(pizza.getSabor());
 
+                System.out.println("======================================================");
                 System.out.println("Escolha seu segundo sabor: ");
                 ImprimeLista.imprimir(PizzaSabor.printAll());
                 posicaoArray = scanner.nextInt();
                 pizza.setSabor(PizzaSabor.values()[posicaoArray]);
                 System.out.println(pizza.getSabor());
 
+                System.out.println("======================================================");
                 System.out.println("Escolha seu terceiro sabor: ");
                 ImprimeLista.imprimir(PizzaSabor.printAll());
                 posicaoArray = scanner.nextInt();
@@ -78,5 +81,6 @@ public class Desenvolvimento {
                 System.out.println(pizza.getSabor());
                 break;
         }
+        System.out.println(pizza.getSabor());
     }
 }
