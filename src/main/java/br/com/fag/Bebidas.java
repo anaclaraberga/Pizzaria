@@ -1,18 +1,16 @@
 package br.com.fag;
 
-public enum Bebidas {
-    COCA_COLA ("Coca-Cola", 5),
-    PEPSI ("Pepsi", 5),
-    GUARANA ("Guaraná", 5),
-    FANTA_LARANJA ("Fanta Laranja", 5),
-    SUCO_LARANJA ("Suco de Laranja", 4),
-    AGUA ("Água", 3);
+import java.util.ArrayList;
 
-    private String nome;
-    private float valor;
-    
-    Bebidas(String nome, float valor) {
-        this.nome = nome;
-        this.valor = valor;
-    }
+public class Bebidas {
+private ArrayList<TipoBebidas> nome = new ArrayList<TipoBebidas>();
+
+public ArrayList<TipoBebidas> getNome() {
+    return nome;
+}
+
+public void setNome(TipoBebidas nome) {
+    this.nome.add(nome);
+}
+
 }

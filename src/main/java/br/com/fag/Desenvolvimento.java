@@ -7,6 +7,7 @@ public class Desenvolvimento {
         Scanner scanner = new Scanner(System.in);
         PizzaTamanho pizzatamanho = new PizzaTamanho();
         Pizza pizza = new Pizza();
+        Bebidas bebidas = new Bebidas();
         int posicaoArray = 0;
 
         System.out.println("======================================================");
@@ -78,5 +79,22 @@ public class Desenvolvimento {
                 System.out.println(pizza.getSabor());
                 break;
         }
+
+        System.out.println("======================================================");
+
+        System.out.println("Deseja bebida? \n[ 1 ] Sim\n[ 2 ] Não");
+        int bebida = scanner.nextInt();
+
+        if (bebida == 1) {
+            System.out.println("======================================================");
+            System.out.println("Escolha sua bebida");
+            ImprimeLista.imprimir(TipoBebidas.printAll());
+
+            posicaoArray = scanner.nextInt();
+            bebidas.setNome(TipoBebidas.values()[posicaoArray]);
+            System.out.println(bebidas.getNome());
+        }
+
+
     }
 }
