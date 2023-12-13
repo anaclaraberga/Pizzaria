@@ -13,12 +13,12 @@ public class Desenvolvimento {
         System.out.println("Seja bem-vindo à Cascavel Pizzaria.");
         System.out.println("======================================================");
         System.out.println(
-                "Digite o número de acordo com o tamanho da pizza que deseja: \n1. Tamanho P\n2. Tamanho M\n3. Tamanho G");
+                "Digite o número de acordo com o tamanho da pizza que deseja: \n[ 1 ] Tamanho P\n[ 2 ] Tamanho M\n[ 3 ] Tamanho G");
         int tamanhoPizza = scanner.nextInt();
 
         switch (tamanhoPizza ) {
             case 1:
-                pizzatamanho.setTamanhoPizza("Pequeno");
+                pizzatamanho.setTamanhoPizza("P");
                 System.out.println(pizzatamanho.getTamanhoPizza());
                 break;
             case 2:
@@ -32,10 +32,7 @@ public class Desenvolvimento {
         }
 
         System.out.println("======================================================");
-        System.out.println("Escolha entre os sabores disponívels:");
-        System.out.println(PizzaSabor.printAll());
-        System.out.println("======================================================");
-        
+
         switch (tamanhoPizza) {
             case 1:
                 System.out.println("Sua pizza é tamanho P. Você tem direito a escolher um sabor.\n Escolha seu sabor:");
@@ -81,6 +78,5 @@ public class Desenvolvimento {
                 System.out.println(pizza.getSabor());
                 break;
         }
-        System.out.println(pizza.getSabor());
     }
 }
