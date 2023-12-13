@@ -16,7 +16,7 @@ public class Desenvolvimento {
                 "Digite o número de acordo com o tamanho da pizza que deseja: \n[ 1 ] Tamanho P\n[ 2 ] Tamanho M\n[ 3 ] Tamanho G");
         int tamanhoPizza = scanner.nextInt();
 
-        switch (tamanhoPizza ) {
+        switch (tamanhoPizza) {
             case 1:
                 pizzatamanho.setTamanhoPizza("P");
                 System.out.println(pizzatamanho.getTamanhoPizza());
