@@ -96,7 +96,21 @@ public class Desenvolvimento {
         }
 
         System.out.println("======================================================");
+        
+        System.out.println("Qual será a forma de pagamento? \n[ 1 ] Crédito\n[ 2 ] Débito\n[3] Pix\\n" + //
+                "[4] Dinheiro");
+        int finalizar = scanner.nextInt();
 
+        switch (finalizar) {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+        }
         
     }
 }
