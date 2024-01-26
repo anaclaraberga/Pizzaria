@@ -9,6 +9,7 @@ public class Desenvolvimento {
         Pizza pizza = new Pizza();
         Bebidas bebidas = new Bebidas();
         int posicaoArray = 0;
+        int posicaoArrayBebida = 0;
 
         System.out.println("======================================================");
         System.out.println("Seja bem-vindo à Cascavel Pizzaria.");
@@ -95,6 +96,13 @@ public class Desenvolvimento {
             System.out.println(bebidas.getNome());
         }
 
+        pizza.setSabor(PizzaSabor.values()[posicaoArray]);
+        pizza.setPreco(PizzaSabor.values()[posicaoArrayBebida]);
+
+        System.out.println("======================================================");
+        System.out.println("Dados do pedido");
+        System.out.println("Total do pedido:");
+        System.out.println("R$ ");
         System.out.println("======================================================");
         
         System.out.println("Qual será a forma de pagamento? \n[ 1 ] Crédito\n[ 2 ] Débito\n[3] Pix\\n" + //
@@ -103,12 +111,20 @@ public class Desenvolvimento {
 
         switch (finalizar) {
             case 1:
+                System.out.println("======================================================");
+                System.out.println("Informe os dados bancários:");
                 break;
             case 2:
+                System.out.println("======================================================");
+                System.out.println("Informe os dados bancários:");
                 break;
             case 3:
+                System.out.println("======================================================");
+                System.out.println("Pix da Pizzaria: 45991873409");
                 break;
             case 4:
+                System.out.println("======================================================");
+                System.out.println("Realize o pagamento no caixa.");
                 break;
         }
         

@@ -46,5 +46,6 @@ public enum PizzaSabor {
     return Stream.of(PizzaSabor.values()).
                 map(PizzaSabor::getNome).
                 collect(Collectors.joining("\n - "));
+  
   }
 }
